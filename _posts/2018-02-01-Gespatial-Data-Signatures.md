@@ -16,7 +16,7 @@ A hash function takes an input of arbitrary size, and returns a value that is fi
 
 Let's use node.js to illustrate using a hash function:
 
-```js
+```javascript
 const crypto = require('crypto');
 const hash = crypto.createHash('sha256');
 
