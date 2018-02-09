@@ -6,8 +6,6 @@ description: Using PostgreSQL and Leaflet to explore large datasets.
 image: assets/images/storm2.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/storm2.jpg)
-
 Starting in 1996, [National Weather Service directive 10-1605](http://www.ncdc.noaa.gov/stormevents/pd01016005curr.pdf) mandated the reporting of 48 different types of weather events and their effects on the impacted community.  This tutorial aims to create a visualization focusing on the percent of storms resulting in injuries/deaths reported by state, and to identify which states
 have been more fortunate than others.  The data is provided by [NOAA](http://www.ncdc.noaa.gov/stormevents/ftp.jsp) in .csv files organized by individual year.  This tutorial requires a working knowledge of the command line, [PostgreSQL/PostGIS](http://postgis.net/), [GDAL/ogr2ogr](http://www.gdal.org/), [LeafletJS](http://leafletjs.com/), Python, and JavaScript.
 

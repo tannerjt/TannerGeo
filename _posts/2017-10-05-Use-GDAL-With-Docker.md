@@ -6,8 +6,6 @@ description: A brief understanding of Docker for running GDAL operations in a co
 image: assets/images/container.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/container.jpg)
-
 In this post, we're going to convert a geojson file to a shapefile using a prebuilt Docker image that already has GDAL installed.  
 
 [GDAL](http://www.gdal.org/) is the library that most geospatial professionals use for working with geospatial data outside of traditional GUI desktop applications.  One of the most used features (at least for me) is the ability to convert spatial file types with [ogr2ogr](http://www.gdal.org/ogr2ogr.html).

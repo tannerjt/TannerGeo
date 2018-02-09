@@ -6,8 +6,6 @@ description: Using TypeScript for building more scalable JavaScript projects.
 image: assets/images/tools.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/tools.jpg)
-
 [ArcGIS-REST-JS](https://github.com/Esri/arcgis-rest-js/) is an open source library that Esri developers are actively working on that provdes an javascript abstraction interface to ArcGIS REST.  I'm interested in both using the library and contributing to it.  One initial hurdle... it's writtin in TypeScript, which I know very little about.  Time to roll up my sleeves and start learning.  Come join me along the way.
 
 ## What is TypeScript

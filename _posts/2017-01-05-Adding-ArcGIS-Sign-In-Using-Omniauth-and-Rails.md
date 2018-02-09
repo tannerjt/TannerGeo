@@ -6,8 +6,6 @@ description: Sign into your Ruby on Rails app with an ArcGIS login.
 image: assets/images/door.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/door.jpg)
-
 We're all familiar with being able to sign into other applications with our Facebook
 or Google account, but what about an ArcGIS Online account? This is possible because
 ArcGIS Online uses OAuth 2 as it's authentication framework.  There is limited information on

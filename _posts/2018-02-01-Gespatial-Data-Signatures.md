@@ -6,8 +6,6 @@ description: Using cryptographic hashes for unique addressing of geospatial feat
 image: assets/images/lock.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/lock.jpg)
-
 When an authority creates geospatial data, it often finds itself mashed up with other data at some point.  For example, take a series of address point screated by a local government.  A developer or analyst may query a subset of those addresses, and then merge them with other points of interest, like retail store locations that were digitized manually by using aerial imagery.  Now, we have a dataset that contains both new data, and a subset of data that came from an authoritative source.  The problem is; how can we verify which points are authoritative, and which are not?
 
 In order to do this, we need each feature to a signature that is unique.  To do this, we can use a hash function.

@@ -6,8 +6,6 @@ description: A basic overview of GeoGig.
 image: assets/images/leaf.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/leaf.jpg)
-
 There are a lot of concepts that are core to the programming and development communities that have yet to manifest themselves (to the masses) in the GIS world.  One of them is version control.
 
 #### Basics

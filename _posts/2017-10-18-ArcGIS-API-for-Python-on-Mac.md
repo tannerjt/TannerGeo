@@ -6,8 +6,6 @@ description: Developer setup for the modern Esri GIS developer.
 image: assets/images/python.jpg
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/python.jpg)
-
 Mac's currently ship with Python 2.7 as the default install.  The [ArcGIS API for Python](https://developers.arcgis.com/python/guide/system-requirements/) requires at least Python 3.5.  However, I don't want to remove 2.7, but rather have the ability to switch between multiple versions of Python.  
 
 This is the main goal of [pyenv](https://github.com/pyenv/pyenv).  It is much like ruby's environment manager (*rbenv*).  You can change the version of python on a
