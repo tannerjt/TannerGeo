@@ -1,0 +1,36 @@
+# site settings
+title: TannerGEO
+subtitle: Development Done Right
+email: support@tannergeo.com
+description: Focusing on creating smart, scalable, and <br />intuitive web applications for our customers.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tannergeo.com" # the base hostname & protocol for your site
+author: Joshua Tanner
+street_address:
+city: Independence
+state: OR
+zip_code:
+country: United States of America
+phone:
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 12
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/tannerjt
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/tannerjoshua/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/tanner_geo
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
