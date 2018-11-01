@@ -130,7 +130,7 @@ import arcgis.gis from GIS
 When we want to deactivate our Python virtual environment, we can simply type:
 
 ```bash
-$ python deactivate
+$ pyenv deactivate
 ```
 
 ### Jupyter Notebook
