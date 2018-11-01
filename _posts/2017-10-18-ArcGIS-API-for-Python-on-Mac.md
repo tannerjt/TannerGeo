@@ -124,7 +124,7 @@ $ conda install -c esri arcgis
 You can test the installation but trying to import the GIS package.  You can run an interactive shell by typing **python** into your termnial.
 
 ```python
-import arcgis.gis from GIS
+from arcgis.gis import GIS
 ```
 
 When we want to deactivate our Python virtual environment, we can simply type:
