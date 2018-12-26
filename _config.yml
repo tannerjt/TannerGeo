@@ -1,8 +1,8 @@
 # site settings
 title: TannerGEO
-subtitle: Development Done Right
+subtitle: GIS and Other Stuff
 email: support@tannergeo.com
-description: Focusing on creating smart, scalable, and <br />intuitive web applications for our customers.
+description: Joshua Tanner is a GIS Developer, husband, and father.  These are his thoughts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tannergeo.com" # the base hostname & protocol for your site
 author: Joshua Tanner
