@@ -1,17 +1,11 @@
 # site settings
 title: TannerGEO
-subtitle: GIS and Other Stuff
+subtitle: A Spatial Blog
 email: support@tannergeo.com
-description: Joshua Tanner is a GIS Developer, husband, and father.  These are his thoughts.
+description: Joshua Tanner is a GIS Developer, husband, and father.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tannergeo.com" # the base hostname & protocol for your site
 author: Joshua Tanner
-street_address:
-city: Independence
-state: OR
-zip_code:
-country: United States of America
-phone:
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"

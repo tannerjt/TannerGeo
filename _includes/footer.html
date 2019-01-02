@@ -25,30 +25,21 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
+					<h3>Contact</h3>
 					<a href="#">{{ site.email }}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
+					<span class="icon alt fa-link"></span>
+					<h3>Links</h3>
 					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }}
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
+					<ul>
+						<li><a href="{{ "assets/files/resume.pdf" | absolute_url }}" target="_blank">Resume</a></li>
+						<li><a href="{{ site.twitter_url }}" target="_blank">Twitter</a></li>
+						<li><a href="{{ site.linkedin_url }}" target="_blank">LinkedIn</a></li>
+						<li><a href="{{ site.github_url }}" target="_blank">Github</a></li>
+					</ul>
 					</span>
 				</div>
 			</section>
@@ -119,4 +110,3 @@
 
 	  gtag('config', 'UA-58675189-2');
 	</script>
-
