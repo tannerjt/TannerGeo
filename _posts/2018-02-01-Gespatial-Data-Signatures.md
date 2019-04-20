@@ -122,10 +122,10 @@ So, let's assume the GeoJSON representation of a building point geometry for the
 Now, if we assume that this point was created by an authoritative entity, we will need to register both the geometry and properties by their unique hash.  Let's create a module that will register hashes into a JSON object, using simple in memory storage for now:
 
 ```js
-// geoAuthStore.js
+// store.js
 const crypto = require('crypto');
 
-function geoStore() {
+function Store() {
   // In memory object store
   this.db = {};
 
@@ -150,14 +150,14 @@ function geoStore() {
   }
 }
 
-module.exports = geoStore;
+module.exports = Store;
 ```
 
 The simple module above allows us to register authoritative geometry and properties as unique hashes in a javascript object.  We can also lookup to see if a given hash already exists.  Let's use this in a simple example to register some authoritative features and check them against a sample mashup of both authoritative and non-authoritative locations:
 
 ```js
 const crypto = require('crypto');
-const Store = require('./3store.js');
+const Store = require('./store.js');
 
 let store = new Store();
 
