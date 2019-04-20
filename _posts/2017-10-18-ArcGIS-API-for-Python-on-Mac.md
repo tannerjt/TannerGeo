@@ -48,7 +48,7 @@ $ pyenv uninstall 3.5.0
 
 ## Set Default Version of Python
 
-### Golbal
+### Global
 
 Used in all shells
 
