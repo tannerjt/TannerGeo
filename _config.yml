@@ -4,7 +4,7 @@ subtitle: A Spatial Blog
 email: support@tannergeo.com
 description: Joshua Tanner is a GIS Developer, husband, and father.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tannergeo.com" # the base hostname & protocol for your site
+url: "https://tannergeo.com" # the base hostname & protocol for your site
 author: Joshua Tanner
 
 # homepage tiles
