@@ -24,7 +24,7 @@ It's important to create a quality thumbnail for items in ArcGIS Online.  Not on
 infer the quality of the item itself.  A crappy or missing thumbnail sends the message that the item
 is of sub-par quality and shouldn't be trusted.
 
-Esri has a great blog post from Ben Szukalski titled ['Put your best thumbnail forward'](https://www.esri.com/arcgis-blog/products/arcgis-online/uncategorized/put-your-best-thumbnail-forward/) which outlines some of the important elements to consider when creating a good thumbnail.  Ben recommends using a template (Photoshop or similar) for creating thumbnails.  I've found this to be cumbersome to distribute and keep updated within
+Esri has a great blog post from Bern Szukalski titled ['Put your best thumbnail forward'](https://www.esri.com/arcgis-blog/products/arcgis-online/uncategorized/put-your-best-thumbnail-forward/) which outlines some of the important elements to consider when creating a good thumbnail.  Bern recommends using a template (Photoshop or similar) for creating thumbnails.  I've found this to be cumbersome to distribute and keep updated within
 a large group of users.
 
 The best solution would be a web tool that would allow users to quickly create these thumbnails online.  Scott Moore (@Esri) developed a great tool that I used for years, [which is hosted on Github](https://github.com/Esri/thumbnail-builder-js).  Although super useful, it relied on an ArcGIS Server geoprocessing service and sadly stopped working for me when we migrated servers.  Since layering text and images is something that could easily be done within an HTML5 Canvas, I figured I would port the tool over myself.
